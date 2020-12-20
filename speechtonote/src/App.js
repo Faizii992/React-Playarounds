@@ -12,7 +12,6 @@ function App() {
   const [isListening, setIsListening] = useState(false);
   const [note, setNote] = useState(null);
   const [savedNotes, setSavedNotes] = useState([]);
-  const [isRec, setisRec] = useState(false);
 
   useEffect(() => {
     HandleListen();
@@ -52,11 +51,15 @@ function App() {
       <h2 style={{ textAlign: 'center' }}>
         <u>SPEECH TO NOTES WITH REACT</u>
       </h2>
+      <div class="alert alert-success" style={{ textAlign: 'center' }}>
+        Hit "Start", say what you wanna record. Once you're done, hit Stop and
+        then hit "save note" if you wanna save it
+      </div>
       <h1 className="my-3">Voice Notes</h1>
       <div className="container">
         <div class="row">
           <div class="card border-primary mb-3" style={{ maxWidth: '30rem' }}>
-            <div class="card-header">Header</div>
+            <div class="card-header">Current Note</div>
             <div class="card-body">
               <h4 class="card-title">
                 {' '}
@@ -76,19 +79,18 @@ function App() {
                   class="btn btn-secondary"
                   onClick={() => {
                     setIsListening((prevState) => !prevState);
-                    setisRec((prevState) => !prevState);
                   }}
                 >
-                  {isRec ? <>Stop 🔴 </> : <> Start 🎤</>}
+                  {isListening ? <>Stop 🔴 </> : <> Start 🎤</>}
                 </button>
               </h4>
-              <p class="card-text"></p>
+              <p class="card-text"> {note}</p>
             </div>
           </div>
           <div class="card border-secondary mb-3" style={{ maxWidth: '40rem' }}>
-            <div class="card-header">Header</div>
+            <div class="card-header">SAVED NOTES</div>
             <div class="card-body">
-              <h4 class="card-title">Secondary card title</h4>
+              <h4 class="card-title">All your notes are down below</h4>
               <p class="card-text">
                 {savedNotes.map((x) => (
                   <li key={x}>{x}</li>
