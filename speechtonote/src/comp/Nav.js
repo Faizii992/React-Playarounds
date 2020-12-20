@@ -1,11 +1,11 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 function Nav() {
   return (
     <div>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">
-          Navbar
+          Home
         </a>
         <button
           class="navbar-toggler"
@@ -22,10 +22,20 @@ function Nav() {
         <div class="collapse navbar-collapse" id="navbarColor02">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">
-                Home
-                <span class="sr-only">(current)</span>
-              </a>
+              <Link to="/">
+                <a class="nav-link" href="#">
+                  Speech To Note
+                  <span class="sr-only">(current)</span>
+                </a>
+              </Link>
+            </li>
+            <li class="nav-item active">
+              <Link to="/objdetect">
+                <a class="nav-link" href="#">
+                  Object Detection
+                  <span class="sr-only">(current)</span>
+                </a>
+              </Link>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
