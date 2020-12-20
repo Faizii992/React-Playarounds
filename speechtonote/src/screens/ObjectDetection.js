@@ -6,6 +6,7 @@ import * as cocossd from '@tensorflow-models/coco-ssd';
 function ObjectDetection() {
   const drawRect = (detections, ctx) => {
     // Loop through each prediction
+    console.log(detections);
     detections.forEach((prediction) => {
       // Extract boxes and classes
       console.log(prediction);
@@ -58,14 +59,20 @@ function ObjectDetection() {
   };
   return (
     <div>
-      <h3 style={{ textAlign: 'center' }}>Object Detection</h3>
+      <div class="alert alert-dismissible alert-warning">
+        <button type="button" class="close" data-dismiss="alert">
+          &times;
+        </button>
+        <h4 class="alert-heading">Oh yus!</h4>
+        <p class="mb-0">Let's put a smile on that pretty face!</p>
+      </div>
       <Webcam
         muted={true}
         ref={WebcamRef}
         style={{
           width: '50%',
           position: 'absolute',
-          top: '20%',
+          top: '25%',
           left: '20%',
           zindex: '8',
         }}
@@ -76,11 +83,12 @@ function ObjectDetection() {
         style={{
           width: '50%',
           position: 'absolute',
-          top: '20%',
+          top: '25%',
           left: '20%',
           zindex: '7',
         }}
       ></canvas>
+      <h3 style={{ textAlign: 'center' }}>Object Detection</h3>
     </div>
   );
 }

@@ -21,10 +21,27 @@ function Nav() {
 
         <div class="collapse navbar-collapse" id="navbarColor02">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
+            {/* <li class="nav-item active">
               <Link to="/">
                 <a class="nav-link" href="#">
+                  Home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </Link>
+            </li> */}
+            <li class="nav-item active">
+              <Link to="/speechtonote">
+                <a class="nav-link" href="#">
                   Speech To Note
+                  <span class="sr-only">(current)</span>
+                </a>
+              </Link>
+            </li>
+
+            <li class="nav-item active">
+              <Link to="/texttospeech">
+                <a class="nav-link" href="#">
+                  Text to Speech
                   <span class="sr-only">(current)</span>
                 </a>
               </Link>
@@ -33,6 +50,14 @@ function Nav() {
               <Link to="/objdetect">
                 <a class="nav-link" href="#">
                   Object Detection
+                  <span class="sr-only">(current)</span>
+                </a>
+              </Link>
+            </li>
+            <li class="nav-item active">
+              <Link to="/segmentation">
+                <a class="nav-link" href="#">
+                  Body Segmentation
                   <span class="sr-only">(current)</span>
                 </a>
               </Link>
@@ -50,6 +75,18 @@ function Nav() {
             </li>
           </ul>
         </div>
+        <button
+          type="button"
+          class="btn btn-secondary"
+          title=""
+          data-container="body"
+          data-toggle="popover"
+          data-placement="left"
+          data-content="This doesn't do anything"
+          data-original-title="Popover Title"
+        >
+          Left
+        </button>
         <form class="form-inline my-2 my-lg-0">
           <input
             class="form-control mr-sm-2"
