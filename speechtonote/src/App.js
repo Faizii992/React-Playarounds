@@ -14,7 +14,7 @@ function App() {
     <>
       <Router>
         <Nav></Nav>
-        <Route exact path="/" component={HomePage}></Route>
+        <Route exact path="/home" component={HomePage}></Route>
         <Route path="/speechtonote" component={SpeechToNote}></Route>
         <Route exact path="/objdetect" component={ObjectDetection}></Route>
         <Route exact path="/texttospeech" component={TextToSpeech}></Route>

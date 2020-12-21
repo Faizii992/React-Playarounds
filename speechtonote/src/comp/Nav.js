@@ -4,9 +4,11 @@ function Nav() {
   return (
     <div>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">
-          Home
-        </a>
+        <Link to="/home">
+          <a class="navbar-brand" href="">
+            Home
+          </a>
+        </Link>
         <button
           class="navbar-toggler"
           type="button"
