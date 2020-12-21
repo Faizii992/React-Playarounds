@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/React-Playarounds/static/css/main.65375f51.chunk.css",
-    "main.js": "/React-Playarounds/static/js/main.05201a04.chunk.js",
-    "main.js.map": "/React-Playarounds/static/js/main.05201a04.chunk.js.map",
-    "runtime-main.js": "/React-Playarounds/static/js/runtime-main.41217240.js",
-    "runtime-main.js.map": "/React-Playarounds/static/js/runtime-main.41217240.js.map",
-    "static/js/2.bc923c54.chunk.js": "/React-Playarounds/static/js/2.bc923c54.chunk.js",
-    "static/js/2.bc923c54.chunk.js.map": "/React-Playarounds/static/js/2.bc923c54.chunk.js.map",
-    "static/js/3.ea4a7c96.chunk.js": "/React-Playarounds/static/js/3.ea4a7c96.chunk.js",
-    "static/js/3.ea4a7c96.chunk.js.map": "/React-Playarounds/static/js/3.ea4a7c96.chunk.js.map",
+    "main.css": "/React-Playarounds/static/css/main.72c847ca.chunk.css",
+    "main.js": "/React-Playarounds/static/js/main.60ad525b.chunk.js",
+    "main.js.map": "/React-Playarounds/static/js/main.60ad525b.chunk.js.map",
+    "runtime-main.js": "/React-Playarounds/static/js/runtime-main.edd5935d.js",
+    "runtime-main.js.map": "/React-Playarounds/static/js/runtime-main.edd5935d.js.map",
+    "static/css/2.0025d9ec.chunk.css": "/React-Playarounds/static/css/2.0025d9ec.chunk.css",
+    "static/js/2.5145e4cf.chunk.js": "/React-Playarounds/static/js/2.5145e4cf.chunk.js",
+    "static/js/2.5145e4cf.chunk.js.map": "/React-Playarounds/static/js/2.5145e4cf.chunk.js.map",
+    "static/js/3.6a2ed36c.chunk.js": "/React-Playarounds/static/js/3.6a2ed36c.chunk.js",
+    "static/js/3.6a2ed36c.chunk.js.map": "/React-Playarounds/static/js/3.6a2ed36c.chunk.js.map",
     "index.html": "/React-Playarounds/index.html",
-    "static/css/main.65375f51.chunk.css.map": "/React-Playarounds/static/css/main.65375f51.chunk.css.map",
-    "static/js/2.bc923c54.chunk.js.LICENSE.txt": "/React-Playarounds/static/js/2.bc923c54.chunk.js.LICENSE.txt"
+    "static/css/2.0025d9ec.chunk.css.map": "/React-Playarounds/static/css/2.0025d9ec.chunk.css.map",
+    "static/css/main.72c847ca.chunk.css.map": "/React-Playarounds/static/css/main.72c847ca.chunk.css.map",
+    "static/js/2.5145e4cf.chunk.js.LICENSE.txt": "/React-Playarounds/static/js/2.5145e4cf.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.41217240.js",
-    "static/js/2.bc923c54.chunk.js",
-    "static/css/main.65375f51.chunk.css",
-    "static/js/main.05201a04.chunk.js"
+    "static/js/runtime-main.edd5935d.js",
+    "static/css/2.0025d9ec.chunk.css",
+    "static/js/2.5145e4cf.chunk.js",
+    "static/css/main.72c847ca.chunk.css",
+    "static/js/main.60ad525b.chunk.js"
   ]
 }
