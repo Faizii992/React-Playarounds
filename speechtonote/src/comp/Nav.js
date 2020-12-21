@@ -46,6 +46,15 @@ function Nav() {
                 </a>
               </Link>
             </li>
+
+            <li class="nav-item active">
+              <Link to="/ocr">
+                <a class="nav-link" href="#">
+                  Image to Text And Speech
+                  <span class="sr-only">(current)</span>
+                </a>
+              </Link>
+            </li>
             <li class="nav-item active">
               <Link to="/objdetect">
                 <a class="nav-link" href="#">

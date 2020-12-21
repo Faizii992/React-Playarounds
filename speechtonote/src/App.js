@@ -7,6 +7,7 @@ import ObjectDetection from './screens/ObjectDetection';
 import SpeechToNote from './screens/SpeechToNote';
 import TextToSpeech from './screens/TextToSpeech';
 import Segmentation from './screens/Segmentation';
+import Ocr from './screens/Ocr';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/objdetect" component={ObjectDetection}></Route>
         <Route exact path="/texttospeech" component={TextToSpeech}></Route>
         <Route exact path="/segmentation" component={Segmentation}></Route>
+        <Route exact path="/ocr" component={Ocr}></Route>
         <Route
           exact
           path="/faizii992.github.io/objdetect"
